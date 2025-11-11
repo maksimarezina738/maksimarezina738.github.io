@@ -94,7 +94,7 @@ footer {
   padding: 5px 10px;
   border-radius: 4px;
 }
-.Professional photo {
+.professional-photo {
   display: block;               /* Makes the image a block element */
   margin: 25px auto;            /* Centers it horizontally with spacing */
   width: 280px;                  /* Adjust width to your preference */
