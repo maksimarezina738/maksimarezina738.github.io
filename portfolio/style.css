@@ -1,0 +1,123 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #000000; /* Updated to black text */
+  background-color: #ACC8E5
+;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #B5B5B5; /* Updated footer/nav background */
+  padding: 10px 0;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #000000; /* Updated nav link text to black */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  color: #797272; /* Primary accent */
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+}
+/*Table */
+
+
+/* Main */
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+main h1 {
+  color: #B3B3B3; /* Primary accent */
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+main p strong {
+  color: #4DA6FF; /* Secondary accent */
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #B5B5B5; /* Footer/nav background */
+  color: #000000; /* Text black */
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Highlights (optional) */
+.highlight {
+  background-color: #A7C7E7;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.profile-photo {
+  display: block;               /* Makes the image a block element */
+  margin: 25px auto;            /* Centers it horizontally with spacing */
+  width: 280px;                  /* Adjust width to your preference */
+  height: 320px;                 /* Adjust height to your preference */
+  object-fit: cover;             /* Keeps aspect ratio without stretching */
+  border-radius: 14px;           /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* Subtle shadow for depth */
+}
+table, tr, td, th{
+  width:80%;
+  border: 1px solid lightgrey;
+}
+
+th, td{
+  padding: 10px;
+  text-align: center;
+}
+  
+tr:nth-child(even){background-color: beige; color: blue;}
+
+tr:hover {background-color: whitesmoke;}
+
+
+
+/* Resources:
+https://davidbau.com/colors/*
