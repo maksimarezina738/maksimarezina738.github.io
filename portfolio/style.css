@@ -45,7 +45,10 @@ nav a.active {
 .logo {
   height: 50px;
 }
-/*Table */
+.MePhoto {
+  height: 450px;
+  width:  450px;
+}
 
 
 /* Main */
