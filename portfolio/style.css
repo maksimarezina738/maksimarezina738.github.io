@@ -100,8 +100,8 @@ footer {
 .profile-photo {
   display: block;               /* Makes the image a block element */
   margin: 25px auto;            /* Centers it horizontally with spacing */
-  width: 280px;                  /* Adjust width to your preference */
-  height: 320px;                 /* Adjust height to your preference */
+  width: 100px;                  /* Adjust width to your preference */
+  height: 100px;                 /* Adjust height to your preference */
   object-fit: cover;             /* Keeps aspect ratio without stretching */
   border-radius: 14px;           /* Rounded corners */
   box-shadow: 0 4px 12px rgba(0,0,0,0.25); /* Subtle shadow for depth */
