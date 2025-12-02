@@ -105,15 +105,18 @@ footer {
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
-table, tr, td, th{
-  width:80%;
+table {
+  width: 95%;           /* Table takes 80% of page */
+  border-collapse: collapse;
   border: 1px solid lightgrey;
 }
 
-th, td{
+th, td {
   padding: 10px;
-  text-align: center;
+  text-align: left;
+  border: 1px solid lightgrey;
 }
+
   
 tr:nth-child(even){background-color: beige; color: blue;}
 
